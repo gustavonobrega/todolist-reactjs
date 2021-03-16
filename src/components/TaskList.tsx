@@ -19,7 +19,7 @@ export function TaskList() {
     if (!newTaskTitle) return
     
     const newTask = {
-      id: Math.floor(Math.random() * 10 + 1),
+      id: Math.random(),
       title: newTaskTitle,
       isComplete: false
     }
